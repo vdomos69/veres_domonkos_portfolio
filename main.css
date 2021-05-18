@@ -1,0 +1,385 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Poppins', sans-serif;
+}
+
+.hatter{
+	background: linear-gradient(rgba(0,0,0,0.5), rgba(57, 167, 59)),url(images/hatter.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	min-height: 100vh;
+}
+
+.hatter_szoveg{
+	text-align: center;
+	color: #ffffff;
+	padding-top: 220px;
+}
+
+.hatter_szoveg h1{
+	font-size: 70px;
+	font-family: 'Permanent Marker', cursive;
+}
+
+.hatter_szoveg p{
+	font-size: 30px;
+}
+
+.hatter_gomb{
+	margin: 70px auto 0;
+	font-size: 20px;
+}
+
+.hatter_gomb a{
+	width: 160px;
+	text-decoration: none;
+	display: inline-block;
+	margin: 0 10px;
+	padding: 12px 0;
+	color: #fff;
+	border: .5px solid #fff;
+	position: relative;
+	z-index: 1;
+	transition: color .5s;
+}
+
+.hatter_gomb a span{
+	width: 0;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background:#fff;
+	z-index: -1;
+	transition: .5s;
+}
+
+.hatter_gomb a:hover span{
+	width: 100%;
+}
+
+.hatter_gomb a:hover{
+	color: #000;
+}
+
+.rolam{
+	text-align: center;
+	color: #ffffff;
+}
+
+.rolam h1{
+	font-size: 80px;
+	font-family: 'Permanent Marker', cursive;
+	padding-top: 100px;
+}
+
+.bem_doboz{
+	width: 80%;
+	margin: auto;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	text-align: center;
+}
+
+.ered_doboz{
+	width: 80%;
+	margin: auto;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	text-align: center;
+}
+
+.bem_doboz p{
+	font-size: 20px;
+}
+
+.ered_doboz p{
+	font-size: 20px;
+}
+
+.bemutatkozas{
+	flex-basis: 40%;
+	padding-top: 200px;
+}
+
+.bemu_kep{
+	flex-basis: 50%;
+	padding-top: 200px;
+	margin: auto;
+
+}
+
+.bemu_kep img{
+	width: 70%;
+	border-radius: 10px;
+}
+
+.ered_kep{
+	flex-basis: 50%;
+	padding: 250px 0 120px 50px;
+	float: left;
+}
+
+.ered_kep img{
+	width: 70%;
+	border-radius: 10px;
+	float: left;
+}
+
+.eredmenyeim{
+	flex-basis: 40%;
+	padding: 250px 0 120px;
+}
+
+.munkaim{
+	text-align: center;
+	color: #ffffff;
+}
+
+.munkaim h1{
+	font-size: 80px;
+	font-family: 'Permanent Marker', cursive;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.kepek img{
+	float: center;
+	width: 1000px;
+	margin: auto;
+	padding: 40px 0 10px;
+}
+
+.kepek p{
+	font-size: 20px;
+	float: center;
+	font-style: italic;
+	padding-bottom: 40px;
+}
+
+.kapcsolat h1{
+	text-align: center;
+	font-size: 80px;
+	font-family: 'Permanent Marker', cursive;
+	padding-top: 30px;
+	color:#fff;
+}
+
+.infok_doboz{
+	width: 80%;
+	margin: auto;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	text-align: center;
+}
+
+.infok_kep{
+	flex-basis: 50%;
+	float: left;
+	padding-top: 60px;
+	padding-right:50px; 
+	margin: auto;
+}
+
+.infok_kep img{
+	width: 100%;
+	border-radius: 10px;
+}
+
+.infok_szoveg{
+	flex-basis: 40%;
+	padding: 250px 0 120px;
+	color:#ffffff;
+	padding-top: 30px;
+}
+
+.infok_szoveg h2{
+	font-size: 50px;
+	font-family: 'Permanent Marker', cursive;
+	padding-bottom: 20px;
+}
+
+.infok_szoveg h3{
+	padding-top: 15px;
+}
+
+.hogyan_h1 h1{
+	font-size: 70px;
+	font-family: 'Permanent Marker', cursive;
+	text-align: center;
+	color: #ffffff;
+	padding-top: 30px;
+}
+
+.hogyan_szoveg{
+	width: 80%;
+	margin: auto;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	text-align: center;
+	color:#fff;
+}
+
+.szoveg_jobb{
+	flex-basis: 40%;
+	padding-top: 100px;
+	font-size: 20px;
+}
+
+.szoveg_bal{
+	flex-basis: 40%;
+	padding-top: 100px;
+	padding-left: 100px;
+	font-size: 20px;
+}
+
+.navigacios_gombok{
+	font-size: 20px;
+	padding-top: 20px;
+	text-align: center;
+	background: rgba(57, 167, 59,0.5);
+	background-size: cover;
+	background-position: center;
+	height: 75px;
+}
+
+.navigacios_gombok a{
+	width: 160px;
+	text-decoration: none;
+	display: inline-block;
+	margin: 0 10px;
+	padding: 12px 0;
+	color: #fff;
+	border: .5px solid #fff;
+	position: relative;
+	z-index: 1;
+	transition: color .5s;
+}
+
+.navigacios_gombok a span{
+	width: 0;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background:#fff;
+	z-index: -1;
+	transition: .5s;
+}
+
+.navigacios_gombok a:hover span{
+	width: 100%;
+}
+
+.navigacios_gombok a:hover{
+	color: #000;
+}
+
+@media screen and (max-width:770px){
+	.hatter_szoveg{
+		padding-top: 100px;
+	}
+	.hatter_szoveg h1{
+		font-size: 25px;
+	}
+	.hatter_szoveg p{
+		font-size: 15px;
+	}
+	.hatter_gomb a{
+		display: block;
+		margin: 20px auto;
+	}
+	.rolam h1{
+		font-size: 30px;
+	}
+	.rolam p{
+		font-size: 15px;
+	}
+	.bemutatkozas{
+		flex-basis: 50%;
+		padding-top: 80px;
+	}
+	.bemu_kep img{
+		width: 90%;
+		border-radius: 10px;
+	}
+	.eredmenyeim{
+		flex-basis: 50%;
+		padding: 150px 0 60px 10px;
+		float: right;
+	}
+	.ered_kep{
+		flex-basis: 40%;
+		padding: 150px 10px 60px;
+		float: left;
+	}
+	.ered_kep img{
+		width: 100%;
+		border-radius: 10px;
+		float:left;
+	}
+	.munkaim h1{
+		font-size: 40px;
+	}
+	.munkaim h2{
+		font-size: 15px;
+	}
+	.kepek img{
+		width: 370px;
+	}
+	.kepek p{
+		font-size: 10px;
+	}
+	.kapcsolat h1{
+		font-size: 40px;
+	}
+	.infok_kep{
+		flex-basis: 30%;
+		padding-left: 0;
+	}
+	.infok_kep img{
+		width: 110px;
+	}
+	.infok_szoveg{
+		font-size: 10px;
+		flex-basis: 50%;
+		padding-top: 50px;
+	}
+	.infok_szoveg h2{
+		font-size: 20px;
+	}
+	.infok_szoveg h3{
+		font-size: 15px;
+	}
+	.hogyan_h1 h1{
+		font-size: 40px;
+	}
+	.hogyan_szoveg p{
+	}
+	.szoveg_bal{
+		flex-basis: 100%;
+		font-size: 15px;
+		padding-left: 0;
+	}
+	.szoveg_jobb{
+		flex-basis: 100%;
+		font-size: 15px;
+		padding-bottom: 30px;
+	}
+	.navigacios_gombok{
+		height:50px;
+		font-size: 8px;		
+	}
+	.navigacios_gombok a{
+		width: 58px;
+		margin: 0, 5px;
+		padidng: 7px, 0;
+	}
+}
